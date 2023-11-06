@@ -1,0 +1,205 @@
+__pycache__
+env
+.vscode
+.pytest_cache
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+dist
+tmp
+out-tsc
+bazel-out
+.env
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.angular
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+.angular/cache
+.sass-cache/
+connect.lock
+coverage
+libpeerconnection.log
+testem.log
+typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/*
+
+# Visual Studio Code related
+.classpath
+.project
+.settings/
+.vscode/*
+
+# packages file containing multi-root paths
+.packages.generated
+
+# Flutter/Dart/Pub related
+app/doc/api/
+app/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+.fvm/
+
+# Android related
+app/android/app/gradle-wrapper.jar
+app/android/.gradle
+app/android/captures/
+app/android/local.properties
+app/android/app/GeneratedPluginRegistrant.java
+app/android/key.properties
+app/android/.idea/
+app/android/app/debug
+app/android/app/profile
+app/android/app/release
+*.jks
+
+GoogleService-Info.plist
+firebase_app_id_file.json
+google-services.json
+firebase_options_dev.dart
+firebase_options_prod.dart
+firebase_options_stg.dart
+
+# iOS/XCode related
+app/ios/app/*.mode1v3
+app/ios/app/*.mode2v3
+app/ios/app/*.moved-aside
+app/ios/app/*.pbxuser
+app/ios/app/*.perspectivev3
+app/ios/app/*sync/
+app/ios/app/.sconsign.dblite
+app/ios/app/.tags*
+app/ios/app/.vagrant/
+app/ios/app/DerivedData/
+app/ios/app/Icon?
+app/ios/app/Pods/
+app/ios/app/.symlinks/
+app/ios/app/profile
+app/ios/app/xcuserdata
+app/ios/.generated/
+app/ios/Flutter/App.framework
+app/ios/Flutter/Flutter.framework
+app/ios/Flutter/Flutter.podspec
+app/ios/Flutter/Generated.xcconfig
+app/ios/Flutter/app.flx
+app/ios/Flutter/app.zip
+app/ios/Flutter/.last_build_id
+app/ios/Flutter/flutter_assets/
+app/ios/Flutter/flutter_export_environment.sh
+app/ios/ServiceDefinitions.json
+app/ios/Runner/GeneratedPluginRegistrant.*
+
+# Coverage
+coverage/
+
+# Submodules
+packages/app/pubspec.lock
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Exceptions to the above rules.
+!app/ios/app/default.mode1v3
+!app/ios/app/default.mode2v3
+!app/ios/app/default.pbxuser
+!app/ios/app/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/app/.packages
+!/dev/ci/app/Gemfile.lock
+!.vscode/extensions.json
+!.vscode/launch.json
+!.idea/codeStyles/
+!.idea/dictionaries/
+!.idea/runConfigurations/
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data, such as
+# password, private keys, and other secrets. These should not be part of version
+# control as they are data points which are potentially sensitive and subject
+# to change depending on the environment.
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+.idea/
+.DS_Store
+celerybeat-schedule
+
+key.jks
+key.properties
+service_account_key.json
+android_keys.zip
