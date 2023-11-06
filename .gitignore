@@ -15,7 +15,7 @@ bazel-out
 node_modules
 npm-debug.log
 yarn-error.log
-
+db.sqlite3
 # IDEs and editors
 .idea/
 .project
